@@ -1,8 +1,27 @@
 aid: snowman
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/snowman.png
 name: Snowman
-description: 'Snowman is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Snowman Logistics is an Indian integrated cold-chain and temperature-controlled
+  logistics company headquartered in Bengaluru, providing refrigerated (frozen and
+  chilled) warehousing, cold storage, and distribution services across India. It serves
+  frozen and chilled foods, dairy, seafood, quick-service restaurants, pharmaceuticals,
+  and other perishables through a national network of temperature-controlled warehouses
+  and a refrigerated transportation fleet. The company is publicly listed on Indian
+  exchanges and was surfaced as a portfolio company of Norwest Venture Partners. This
+  profile was enriched by the API Evangelist pipeline; the enrichment pass confirmed
+  the company publishes a marketing/corporate website (snowman.in) but exposes no public
+  developer, API, or well-known discovery surface.'
 url: https://raw.githubusercontent.com/api-evangelist/snowman/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Logistics
+- Cold Chain
+- Cold Storage
+- Warehousing
+- Transportation
+- Supply Chain
+- Temperature Controlled
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,14 @@ maintainers:
 common:
 - type: Website
   url: https://snowman.in
+- type: Support
+  url: https://snowman.in/contact
+- type: TermsOfService
+  url: https://snowman.in/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://snowman.in/privacy-policy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
